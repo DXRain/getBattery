@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		891AAEC81EDEC74200F27739 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 891AAEC71EDEC74200F27739 /* IOKit.framework */; };
+		89AE1F791EDE93D20073A592 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 89AE1F781EDE93D20073A592 /* main.m */; };
+		89AE1F7C1EDE93D20073A592 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 89AE1F7B1EDE93D20073A592 /* AppDelegate.m */; };
+		89AE1F7F1EDE93D20073A592 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89AE1F7E1EDE93D20073A592 /* ViewController.m */; };
+		89AE1F821EDE93D20073A592 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89AE1F801EDE93D20073A592 /* Main.storyboard */; };
+		89AE1F841EDE93D20073A592 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89AE1F831EDE93D20073A592 /* Assets.xcassets */; };
+		89AE1F871EDE93D20073A592 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89AE1F851EDE93D20073A592 /* LaunchScreen.storyboard */; };
+		89AE1F921EDE93D20073A592 /* getBatteryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 89AE1F911EDE93D20073A592 /* getBatteryTests.m */; };
+		89AE1F9D1EDE93D20073A592 /* getBatteryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 89AE1F9C1EDE93D20073A592 /* getBatteryUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		89AE1F8E1EDE93D20073A592 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89AE1F6C1EDE93D10073A592 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89AE1F731EDE93D20073A592;
+			remoteInfo = getBattery;
+		};
+		89AE1F991EDE93D20073A592 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89AE1F6C1EDE93D10073A592 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89AE1F731EDE93D20073A592;
+			remoteInfo = getBattery;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		891AAEC51EDEC6CE00F27739 /* IOPowerSources.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IOPowerSources.h; sourceTree = "<group>"; };
+		891AAEC61EDEC6CE00F27739 /* IOPSKeys.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IOPSKeys.h; sourceTree = "<group>"; };
+		891AAEC71EDEC74200F27739 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IOKit.framework; sourceTree = "<group>"; };
+		89AE1F741EDE93D20073A592 /* getBattery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = getBattery.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		89AE1F781EDE93D20073A592 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		89AE1F7A1EDE93D20073A592 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		89AE1F7B1EDE93D20073A592 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		89AE1F7D1EDE93D20073A592 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		89AE1F7E1EDE93D20073A592 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		89AE1F811EDE93D20073A592 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		89AE1F831EDE93D20073A592 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		89AE1F861EDE93D20073A592 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		89AE1F881EDE93D20073A592 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89AE1F8D1EDE93D20073A592 /* getBatteryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = getBatteryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		89AE1F911EDE93D20073A592 /* getBatteryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = getBatteryTests.m; sourceTree = "<group>"; };
+		89AE1F931EDE93D20073A592 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89AE1F981EDE93D20073A592 /* getBatteryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = getBatteryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		89AE1F9C1EDE93D20073A592 /* getBatteryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = getBatteryUITests.m; sourceTree = "<group>"; };
+		89AE1F9E1EDE93D20073A592 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89AE1F711EDE93D20073A592 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				891AAEC81EDEC74200F27739 /* IOKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89AE1F8A1EDE93D20073A592 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89AE1F951EDE93D20073A592 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		89AE1F6B1EDE93D10073A592 = {
+			isa = PBXGroup;
+			children = (
+				89AE1F761EDE93D20073A592 /* getBattery */,
+				89AE1F901EDE93D20073A592 /* getBatteryTests */,
+				89AE1F9B1EDE93D20073A592 /* getBatteryUITests */,
+				89AE1F751EDE93D20073A592 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		89AE1F751EDE93D20073A592 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89AE1F741EDE93D20073A592 /* getBattery.app */,
+				89AE1F8D1EDE93D20073A592 /* getBatteryTests.xctest */,
+				89AE1F981EDE93D20073A592 /* getBatteryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		89AE1F761EDE93D20073A592 /* getBattery */ = {
+			isa = PBXGroup;
+			children = (
+				891AAEC71EDEC74200F27739 /* IOKit.framework */,
+				891AAEC51EDEC6CE00F27739 /* IOPowerSources.h */,
+				891AAEC61EDEC6CE00F27739 /* IOPSKeys.h */,
+				89AE1F7A1EDE93D20073A592 /* AppDelegate.h */,
+				89AE1F7B1EDE93D20073A592 /* AppDelegate.m */,
+				89AE1F7D1EDE93D20073A592 /* ViewController.h */,
+				89AE1F7E1EDE93D20073A592 /* ViewController.m */,
+				89AE1F801EDE93D20073A592 /* Main.storyboard */,
+				89AE1F831EDE93D20073A592 /* Assets.xcassets */,
+				89AE1F851EDE93D20073A592 /* LaunchScreen.storyboard */,
+				89AE1F881EDE93D20073A592 /* Info.plist */,
+				89AE1F771EDE93D20073A592 /* Supporting Files */,
+			);
+			path = getBattery;
+			sourceTree = "<group>";
+		};
+		89AE1F771EDE93D20073A592 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				89AE1F781EDE93D20073A592 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		89AE1F901EDE93D20073A592 /* getBatteryTests */ = {
+			isa = PBXGroup;
+			children = (
+				89AE1F911EDE93D20073A592 /* getBatteryTests.m */,
+				89AE1F931EDE93D20073A592 /* Info.plist */,
+			);
+			path = getBatteryTests;
+			sourceTree = "<group>";
+		};
+		89AE1F9B1EDE93D20073A592 /* getBatteryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				89AE1F9C1EDE93D20073A592 /* getBatteryUITests.m */,
+				89AE1F9E1EDE93D20073A592 /* Info.plist */,
+			);
+			path = getBatteryUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		89AE1F731EDE93D20073A592 /* getBattery */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89AE1FA11EDE93D20073A592 /* Build configuration list for PBXNativeTarget "getBattery" */;
+			buildPhases = (
+				89AE1F701EDE93D20073A592 /* Sources */,
+				89AE1F711EDE93D20073A592 /* Frameworks */,
+				89AE1F721EDE93D20073A592 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = getBattery;
+			productName = getBattery;
+			productReference = 89AE1F741EDE93D20073A592 /* getBattery.app */;
+			productType = "com.apple.product-type.application";
+		};
+		89AE1F8C1EDE93D20073A592 /* getBatteryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89AE1FA41EDE93D20073A592 /* Build configuration list for PBXNativeTarget "getBatteryTests" */;
+			buildPhases = (
+				89AE1F891EDE93D20073A592 /* Sources */,
+				89AE1F8A1EDE93D20073A592 /* Frameworks */,
+				89AE1F8B1EDE93D20073A592 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89AE1F8F1EDE93D20073A592 /* PBXTargetDependency */,
+			);
+			name = getBatteryTests;
+			productName = getBatteryTests;
+			productReference = 89AE1F8D1EDE93D20073A592 /* getBatteryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		89AE1F971EDE93D20073A592 /* getBatteryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89AE1FA71EDE93D20073A592 /* Build configuration list for PBXNativeTarget "getBatteryUITests" */;
+			buildPhases = (
+				89AE1F941EDE93D20073A592 /* Sources */,
+				89AE1F951EDE93D20073A592 /* Frameworks */,
+				89AE1F961EDE93D20073A592 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89AE1F9A1EDE93D20073A592 /* PBXTargetDependency */,
+			);
+			name = getBatteryUITests;
+			productName = getBatteryUITests;
+			productReference = 89AE1F981EDE93D20073A592 /* getBatteryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		89AE1F6C1EDE93D10073A592 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = bigtree;
+				TargetAttributes = {
+					89AE1F731EDE93D20073A592 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 73KTX5N474;
+						ProvisioningStyle = Automatic;
+					};
+					89AE1F8C1EDE93D20073A592 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 89AE1F731EDE93D20073A592;
+					};
+					89AE1F971EDE93D20073A592 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 89AE1F731EDE93D20073A592;
+					};
+				};
+			};
+			buildConfigurationList = 89AE1F6F1EDE93D10073A592 /* Build configuration list for PBXProject "getBattery" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 89AE1F6B1EDE93D10073A592;
+			productRefGroup = 89AE1F751EDE93D20073A592 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				89AE1F731EDE93D20073A592 /* getBattery */,
+				89AE1F8C1EDE93D20073A592 /* getBatteryTests */,
+				89AE1F971EDE93D20073A592 /* getBatteryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		89AE1F721EDE93D20073A592 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89AE1F871EDE93D20073A592 /* LaunchScreen.storyboard in Resources */,
+				89AE1F841EDE93D20073A592 /* Assets.xcassets in Resources */,
+				89AE1F821EDE93D20073A592 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89AE1F8B1EDE93D20073A592 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89AE1F961EDE93D20073A592 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		89AE1F701EDE93D20073A592 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89AE1F7F1EDE93D20073A592 /* ViewController.m in Sources */,
+				89AE1F7C1EDE93D20073A592 /* AppDelegate.m in Sources */,
+				89AE1F791EDE93D20073A592 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89AE1F891EDE93D20073A592 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89AE1F921EDE93D20073A592 /* getBatteryTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89AE1F941EDE93D20073A592 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89AE1F9D1EDE93D20073A592 /* getBatteryUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		89AE1F8F1EDE93D20073A592 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 89AE1F731EDE93D20073A592 /* getBattery */;
+			targetProxy = 89AE1F8E1EDE93D20073A592 /* PBXContainerItemProxy */;
+		};
+		89AE1F9A1EDE93D20073A592 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 89AE1F731EDE93D20073A592 /* getBattery */;
+			targetProxy = 89AE1F991EDE93D20073A592 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		89AE1F801EDE93D20073A592 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89AE1F811EDE93D20073A592 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		89AE1F851EDE93D20073A592 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89AE1F861EDE93D20073A592 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		89AE1F9F1EDE93D20073A592 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		89AE1FA01EDE93D20073A592 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		89AE1FA21EDE93D20073A592 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 73KTX5N474;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/getBattery",
+				);
+				INFOPLIST_FILE = getBattery/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dxy.getBattery;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		89AE1FA31EDE93D20073A592 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 73KTX5N474;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/getBattery",
+				);
+				INFOPLIST_FILE = getBattery/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dxy.getBattery;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		89AE1FA51EDE93D20073A592 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = getBatteryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dxy.getBatteryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/getBattery.app/getBattery";
+			};
+			name = Debug;
+		};
+		89AE1FA61EDE93D20073A592 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = getBatteryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dxy.getBatteryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/getBattery.app/getBattery";
+			};
+			name = Release;
+		};
+		89AE1FA81EDE93D20073A592 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = getBatteryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dxy.getBatteryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = getBattery;
+			};
+			name = Debug;
+		};
+		89AE1FA91EDE93D20073A592 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = getBatteryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dxy.getBatteryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = getBattery;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		89AE1F6F1EDE93D10073A592 /* Build configuration list for PBXProject "getBattery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89AE1F9F1EDE93D20073A592 /* Debug */,
+				89AE1FA01EDE93D20073A592 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89AE1FA11EDE93D20073A592 /* Build configuration list for PBXNativeTarget "getBattery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89AE1FA21EDE93D20073A592 /* Debug */,
+				89AE1FA31EDE93D20073A592 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89AE1FA41EDE93D20073A592 /* Build configuration list for PBXNativeTarget "getBatteryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89AE1FA51EDE93D20073A592 /* Debug */,
+				89AE1FA61EDE93D20073A592 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89AE1FA71EDE93D20073A592 /* Build configuration list for PBXNativeTarget "getBatteryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89AE1FA81EDE93D20073A592 /* Debug */,
+				89AE1FA91EDE93D20073A592 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 89AE1F6C1EDE93D10073A592 /* Project object */;
+}
