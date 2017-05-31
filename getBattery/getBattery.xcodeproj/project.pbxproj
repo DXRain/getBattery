@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		891AAEC81EDEC74200F27739 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 891AAEC71EDEC74200F27739 /* IOKit.framework */; };
 		89AE1F791EDE93D20073A592 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 89AE1F781EDE93D20073A592 /* main.m */; };
 		89AE1F7C1EDE93D20073A592 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 89AE1F7B1EDE93D20073A592 /* AppDelegate.m */; };
 		89AE1F7F1EDE93D20073A592 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89AE1F7E1EDE93D20073A592 /* ViewController.m */; };
@@ -36,9 +35,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		891AAEC51EDEC6CE00F27739 /* IOPowerSources.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IOPowerSources.h; sourceTree = "<group>"; };
-		891AAEC61EDEC6CE00F27739 /* IOPSKeys.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IOPSKeys.h; sourceTree = "<group>"; };
-		891AAEC71EDEC74200F27739 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IOKit.framework; sourceTree = "<group>"; };
 		89AE1F741EDE93D20073A592 /* getBattery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = getBattery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89AE1F781EDE93D20073A592 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		89AE1F7A1EDE93D20073A592 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -62,7 +58,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				891AAEC81EDEC74200F27739 /* IOKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,9 +101,6 @@
 		89AE1F761EDE93D20073A592 /* getBattery */ = {
 			isa = PBXGroup;
 			children = (
-				891AAEC71EDEC74200F27739 /* IOKit.framework */,
-				891AAEC51EDEC6CE00F27739 /* IOPowerSources.h */,
-				891AAEC61EDEC6CE00F27739 /* IOPSKeys.h */,
 				89AE1F7A1EDE93D20073A592 /* AppDelegate.h */,
 				89AE1F7B1EDE93D20073A592 /* AppDelegate.m */,
 				89AE1F7D1EDE93D20073A592 /* ViewController.h */,
@@ -442,6 +434,7 @@
 				INFOPLIST_FILE = getBattery/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = dxy.getBattery;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -460,6 +453,7 @@
 				INFOPLIST_FILE = getBattery/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = dxy.getBattery;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
